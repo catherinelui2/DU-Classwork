@@ -1,0 +1,41 @@
+
+
+body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+}
+
+#fixed {
+    background: #eee;
+    position:fixed;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    width:600px;
+    margin: 0 auto 0 auto;
+}
+
+#relative {
+    background: #eee;
+    position: relative;
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#absolute { 
+    background: #999;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    right: 20px;
+}
